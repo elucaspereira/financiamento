@@ -17,7 +17,7 @@ juros = valor * 3/100 * parcelas
 total_juros = (valor + juros) / parcelas
 prestacao = total_juros
 minimo = salario * 30 / 100
-print('Olá cliente {}'.format(nome))
+print('\033[1,32mOlá cliente {}\033[m'.format(nome))
 print(email)
 print(formatcel)
 print(cpf_format)
